@@ -1,0 +1,177 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   "OneDrive - Terumo Corporation/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/vsCode/MDAT_project"
+#	new file:   vsCode/.vscode/launch.json
+#	new file:   vsCode/MDAT_project
+#	new file:   vsCode/Note/2023-05-08_10-35_memo.md
+#	new file:   vsCode/Test001/lambda_function.py
+#	new file:   vsCode/Test001/src/Function/handler.py
+#	new file:   vsCode/Test001/src/Function/index.js
+#	new file:   vsCode/Test001/src/Function/package.json
+#	new file:   vsCode/Test001/src/Function/requirements.txt
+#	new file:   vsCode/Test001/template.yaml
+#	new file:   vsCode/codewhisperertest.py
+#	new file:   vsCode/koyamalambdatest
+#	new file:   vsCode/yamadatesuto/lambda_function.py
+#
+# Changes not staged for commit:
+#	deleted:    "OneDrive - Terumo Corporation/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/vsCode/MDAT_project"
+#	modified:   vsCode/Note/2023-05-08_10-35_memo.md
+#	modified:   vsCode/koyamalambdatest (new commits)
+#
+# Untracked files:
+#	.VirtualBox/
+#	.anaconda/
+#	.android/
+#	.angular-config.json
+#	.aws/
+#	.bash_history
+#	.cisco/
+#	.conda/
+#	.condarc
+#	.config/
+#	.continuum/
+#	.docker/
+#	.emulator_console_auth_token
+#	.gitconfig
+#	.gitignore
+#	.gradle/
+#	.ipynb_checkpoints/
+#	.ipython/
+#	.jdks/
+#	.jupyter/
+#	.kube/
+#	.labelImgSettings.pkl
+#	.lesshst
+#	.matplotlib/
+#	.metadata/
+#	.node_repl_history
+#	.redhat/
+#	.ssh/
+#	.streamlit/
+#	.vec/
+#	.viminfo
+#	.vscode/
+#	3D Objects/
+#	AWSLambdaTest/
+#	AndroidStudioProjects/
+#	AppData/
+#	Contacts/
+#	Creative Cloud Files takahirokoyamaacademic@gmail.com 344c8960f04b273fbd58ad67ccb1c37849556edc742cb729e2dd338e6dde4df9/
+#	Creative Cloud Files/
+#	DataSetCreater/
+#	Desktop/
+#	Downloads.pem
+#	Downloads/
+#	Favorites/
+#	Links/
+#	Music/
+#	MyKeyPair.pem
+#	NTUSER.DAT
+#	NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+#	NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+#	NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+#	OneDrive - Terumo Corporation/.849C9593-D756-4E56-8D6E-42412F2A707B
+#	"OneDrive - Terumo Corporation/2021\345\271\2645\346\234\21010\346\227\245/"
+#	"OneDrive - Terumo Corporation/2021\345\271\2648\346\234\21020\346\227\245/"
+#	OneDrive - Terumo Corporation/AWSCLIV2 (1).msi
+#	"OneDrive - Terumo Corporation/AWS\350\251\246\351\250\223/"
+#	"OneDrive - Terumo Corporation/CEC\351\232\234\345\256\263\345\240\261\345\221\212\346\233\270\346\225\264\347\220\206_220713_\345\216\237\343\202\263\343\203\241.xlsx"
+#	"OneDrive - Terumo Corporation/DC-0078238-01_SAD_DLE_\344\273\230\351\214\262\347\224\273\351\235\242\350\250\255\350\250\210\346\233\270_draft14 (1).xlsx"
+#	"OneDrive - Terumo Corporation/DC-0078238-01_SAD_DLE_\344\273\230\351\214\262\347\224\273\351\235\242\350\250\255\350\250\210\346\233\270_draft14 (2).xlsx"
+#	"OneDrive - Terumo Corporation/DC-0078238-01_SAD_DLE_\344\273\230\351\214\262\347\224\273\351\235\242\350\250\255\350\250\210\346\233\270_draft14 (3).xlsx"
+#	"OneDrive - Terumo Corporation/DC-0078238-01_SAD_DLE_\344\273\230\351\214\262\347\224\273\351\235\242\350\250\255\350\250\210\346\233\270_draft14.xlsx"
+#	"OneDrive - Terumo Corporation/DC-0078238-02_SAD_DLE_13_\347\224\273\351\235\242\350\250\255\350\250\210\346\233\270 (1).xlsx"
+#	"OneDrive - Terumo Corporation/DC-0078238-02_SAD_DLE_13_\347\224\273\351\235\242\350\250\255\350\250\210\346\233\270 (2).xlsx"
+#	"OneDrive - Terumo Corporation/DC-0078238-02_SAD_DLE_13_\347\224\273\351\235\242\350\250\255\350\250\210\346\233\270.xlsx"
+#	"OneDrive - Terumo Corporation/DC-0079289-01_SAD_DLE_\344\273\230\351\214\262)10_\343\202\263\343\203\274\343\203\207\343\202\243\343\203\263\343\202\260\350\246\217\347\264\204 C#_draft06.docx"
+#	"OneDrive - Terumo Corporation/DC\343\201\270\343\201\256\350\252\254\346\230\216\347\224\250\350\263\207\346\226\231.pptx"
+#	"OneDrive - Terumo Corporation/DLE_SRS\346\214\207\346\221\230_20220606.xlsx"
+#	OneDrive - Terumo Corporation/DataScienceFG/
+#	OneDrive - Terumo Corporation/Microsoft Teams Chat Files/
+#	OneDrive - Terumo Corporation/Microsoft Teams Data/
+#	"OneDrive - Terumo Corporation/Microsoft Teams \343\203\201\343\203\243\343\203\203\343\203\210 \343\203\225\343\202\241\343\202\244\343\203\253/"
+#	"OneDrive - Terumo Corporation/Sharepoint\344\275\277\347\224\250\345\240\261\345\221\212.pptx"
+#	"OneDrive - Terumo Corporation/Takahiro2 \343\201\225\343\202\223 @ Terumo Corporation.url"
+#	OneDrive - Terumo Corporation/Whiteboards/
+#	OneDrive - Terumo Corporation/desktop.ini
+#	OneDrive - Terumo Corporation/git-pandas-1.2.0.tar.gz
+#	OneDrive - Terumo Corporation/iCube/
+#	"OneDrive - Terumo Corporation/\343\200\220DLM\343\200\221DLE/"
+#	"OneDrive - Terumo Corporation/\343\200\220\343\203\206\343\203\253\343\203\242\343\200\221DLE\343\201\256\344\270\215\345\205\267\345\220\210\346\203\205\345\240\261_20220725_\343\203\206\343\203\253\343\203\242\347\244\276\345\206\205\347\224\250.xlsx"
+#	"OneDrive - Terumo Corporation/\343\202\257\343\203\251\343\202\246\343\203\211FG/"
+#	"OneDrive - Terumo Corporation/\343\203\207\343\202\271\343\202\257\343\203\210\343\203\203\343\203\227/"
+#	"OneDrive - Terumo Corporation/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/20230519_\345\260\217\345\261\261 \350\262\264\345\274\230_\350\226\254\345\211\244\343\203\251\343\202\244\343\203\226\343\203\251\343\203\252\343\203\236\343\203\215\343\203\274\343\202\270\343\203\243\343\203\274Ver.2\351\226\213\347\231\272\343\201\256\344\275\234\346\245\255\345\247\224\350\250\227.xlsm"
+#	"OneDrive - Terumo Corporation/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/3\343\202\275\343\203\225\343\203\210\351\226\223\343\203\252\343\202\275\343\203\274\343\202\271\346\225\264\345\220\210\350\241\250_202305161.xlsx"
+#	"OneDrive - Terumo Corporation/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/AWSAmplifyStudio\343\201\247\343\201\257\343\201\230\343\202\201\343\202\213\343\203\225\343\203\255\343\203\263\343\203\210\343\202\250\343\203\263\343\203\211+\343\203\220\343\203\203\343\202\257\343\202\250\343\203\263\343\203\211\347\265\261\345\220\210\351\226\213\347\231\272.pdf"
+#	"OneDrive - Terumo Corporation/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/AWS_dynamodb_sagemaker.drawio"
+#	"OneDrive - Terumo Corporation/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/BloodPresure.csv"
+#	"OneDrive - Terumo Corporation/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/BloodPresure.xlsx"
+#	"OneDrive - Terumo Corporation/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/DLE\346\254\241\347\211\210\350\252\262\351\241\214\344\270\200\350\246\247.xlsx"
+#	"OneDrive - Terumo Corporation/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/DMAT_dynamodb_Lambda.drawio"
+#	"OneDrive - Terumo Corporation/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/Default.rdp"
+#	"OneDrive - Terumo Corporation/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/MEC\346\216\245\347\266\232\343\203\220\343\203\203\343\203\201 .bat"
+#	"OneDrive - Terumo Corporation/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/Office \343\201\256\343\202\253\343\202\271\343\202\277\343\203\240 \343\203\206\343\203\263\343\203\227\343\203\254\343\203\274\343\203\210/"
+#	"OneDrive - Terumo Corporation/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/PCAM\343\201\256\350\277\275\345\212\240\343\203\217\343\202\266\343\203\274\343\203\211\345\210\206\346\236\220\343\201\250DLM\343\201\250\343\201\256\346\225\264\345\220\210.xlsx"
+#	"OneDrive - Terumo Corporation/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/PowerShell/"
+#	"OneDrive - Terumo Corporation/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/ScreenToGif/"
+#	"OneDrive - Terumo Corporation/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/desktop.ini"
+#	"OneDrive - Terumo Corporation/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/vsCode/koyamalambdatest/"
+#	"OneDrive - Terumo Corporation/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/\343\202\257\343\203\251\343\202\2712\346\261\272\350\243\201\343\200\221\343\203\235\343\203\263\343\203\227\351\226\242\351\200\243_\350\226\254\345\211\244\343\203\251\343\202\244\343\203\226\343\203\251\343\203\252\343\203\236\343\203\215\343\203\274\343\202\270\343\203\243\343\203\274Ver2.pptx"
+#	"OneDrive - Terumo Corporation/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/\343\203\206\343\203\274\343\203\226\343\203\253\345\256\232\347\276\251.xlsx"
+#	"OneDrive - Terumo Corporation/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/\343\203\207\343\203\274\343\202\277\345\210\251\346\264\273\347\224\250\343\203\227\343\203\255\343\202\270\343\202\247\343\202\257\343\203\210\343\203\252\343\202\275\343\203\274\343\202\271\344\270\200\350\246\247.xlsx"
+#	"OneDrive - Terumo Corporation/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/\343\203\220\343\203\274\343\202\270\343\203\247\343\203\263\346\203\205\345\240\261\347\224\273\351\235\242\343\201\253\343\201\244\343\201\204\343\201\246\343\201\256\343\201\224\347\233\270\350\253\207.xlsx"
+#	"OneDrive - Terumo Corporation/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/\346\233\264\346\226\260\346\270\210_\343\202\242\343\202\257\343\203\206\343\202\243\343\203\226\343\202\273\343\203\253.xlsx"
+#	"OneDrive - Terumo Corporation/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/\350\263\274\350\262\267\344\276\235\351\240\274\347\224\263\350\253\213\346\233\270_\350\226\254\345\211\244\343\203\251\343\202\244\343\203\226\343\203\251\343\203\252\343\203\236\343\203\215\343\203\274\343\202\270\343\203\243\343\203\274Ver2/"
+#	"OneDrive - Terumo Corporation/\343\203\216\343\203\274\343\203\210\343\203\226\343\203\203\343\202\257/"
+#	"OneDrive - Terumo Corporation/\343\203\235\343\203\263\343\203\227\346\225\205\351\232\234\344\272\210\346\270\254/"
+#	"OneDrive - Terumo Corporation/\343\203\254\343\202\263\343\203\274\343\203\207\343\202\243\343\203\263\343\202\260/"
+#	"OneDrive - Terumo Corporation/\344\270\200\346\231\202\344\277\235\345\255\230/"
+#	"OneDrive - Terumo Corporation/\344\275\223\346\270\251\350\250\210DMS\343\202\242\343\203\227\343\203\252/"
+#	"OneDrive - Terumo Corporation/\346\227\245\343\200\205\343\201\256\346\227\245\350\250\230.url"
+#	"OneDrive - Terumo Corporation/\346\267\273\344\273\230\343\203\225\343\202\241\343\202\244\343\203\253/"
+#	"OneDrive - Terumo Corporation/\347\224\273\345\203\217/"
+#	"OneDrive - Terumo Corporation/\347\233\256\346\250\231\347\256\241\347\220\206\343\202\267\343\203\274\343\203\210.xlsx"
+#	"OneDrive - Terumo Corporation/\347\265\220\345\220\210\343\203\206\343\202\271\343\203\210\343\201\253\345\255\230\345\234\250\343\201\227\343\201\252\343\201\204\343\202\250\343\203\251\343\203\274\343\203\241\343\203\203\343\202\273\343\203\274\343\202\270_20220524093643804607.xlsx"
+#	"OneDrive - Terumo Corporation/\347\265\220\345\220\210\343\203\206\343\202\271\343\203\210\343\201\256\343\203\241\343\203\203\343\202\273\343\203\274\343\202\270\347\265\261\345\220\210\343\201\225\343\202\214\343\201\246\343\201\204\343\201\252\343\201\204ID\346\212\275\345\207\27220220602092109137823.xlsx"
+#	OneDrive/
+#	Oracle/
+#	Saved Games/
+#	Searches/
+#	Sti_Trace.log
+#	Terumo Corporation/
+#	Users/
+#	Videos/
+#	VirtualBox VMs/
+#	VisualStudioCode/
+#	amplify-homes/
+#	aws
+#	conda
+#	copy
+#	doors9.6.1Help/
+#	dvd.iso
+#	ffmpeg.exe
+#	former2/
+#	gifski.dll
+#	git
+#	hogehoge.csv
+#	jupyternotebook/
+#	ntuser.dat.LOG1
+#	ntuser.dat.LOG2
+#	ntuser.ini
+#	ntuser.pol
+#	postgresql_13.exe
+#	result.csv
+#	sample-codes-for-aiml/
+#	seaborn-data/
+#	tar
+#	yolact/
+#	yolov5/
+#
